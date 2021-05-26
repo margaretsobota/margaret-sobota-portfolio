@@ -1,9 +1,3 @@
-<svg
-  width="1440"
-  height="448"
-  viewBox="0 0 1440 448"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <path d="M1454 -50H-14V448L1454 307.03V-50Z" fill="#3E2F5B"/>
+<svg width="1440" height="661" viewBox="0 0 1440 661" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1454 -51H-14V661L1454 459.452V-51Z" fill="#3E2F5B"/>
 </svg>

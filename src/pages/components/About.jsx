@@ -13,7 +13,7 @@ const titleStyles = {
 const About = () => {
   return (
     <Fade left>
-      <section id="about" style={{marginTop: "300px"}}>
+      <section id="about">
         <div id="about-container" style={{marginLeft: "15%"}}>
           <h1
             id="about-title"

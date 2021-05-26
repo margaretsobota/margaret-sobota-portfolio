@@ -4,14 +4,10 @@ import "@fontsource/pridi";
 import Headline from "./components/Headline.jsx";
 import About from "./components/About.jsx";
 
-// styles
-const pageStyles = {
-
-}
 // markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
+    <main>
       <title>Home Page</title>
       <Headline/>
       <About />

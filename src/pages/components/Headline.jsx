@@ -27,7 +27,7 @@ const Headline = () => {
         id="about-link"
         to="about"
         style={buttonStyles}
-        smooth 
+        smooth
         duration={1000}
       >
         About Me
