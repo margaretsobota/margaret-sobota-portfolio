@@ -34,16 +34,41 @@ body {
   background-image: url(./images/AboutVector.svg);
 }
 
-#about-container, h1, p {
+#about-container, h2, div {
   background: none;
 }
 
+#about-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#about-body-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-right: 10%;
+}
+
+#about-image {
+  margin: 10%;
+}
+
 #about-title {
-  padding-top: 50px;
+  margin-bottom: 0px;
 }
 
 #about-body {
-  margin-right: 35%;
   color: #E5E5E5;
   font-size: 18px;
+}
+
+/* Skills */
+
+#skills-title {
+  font-size: 72px;
+  color: #3E2F5B;
+  text-align: right;
+  margin-right: 10%;
+  margin-top: 20px;
 }
