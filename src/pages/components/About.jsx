@@ -2,7 +2,7 @@ import React from "react";
 import "@fontsource/pridi";
 import "@fontsource/prompt";
 import Fade from 'react-reveal/Fade';
-import { StaticImage } from "gatsby-plugin-image"
+import { StaticImage } from "gatsby-plugin-image";
 
 const titleStyles = {
   fontFamily: "Pridi",
