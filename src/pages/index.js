@@ -4,6 +4,7 @@ import "@fontsource/pridi";
 import Headline from "./components/Headline.jsx";
 import About from "./components/About.jsx";
 import Skills from "./components/Skills.jsx";
+import Projects from "./components/Projects.jsx";
 
 // markup
 const IndexPage = () => {
@@ -13,6 +14,7 @@ const IndexPage = () => {
       <Headline/>
       <About />
       <Skills />
+      <Projects />
     </main>
   )
 }

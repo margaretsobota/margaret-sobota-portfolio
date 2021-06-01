@@ -78,3 +78,20 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Projects */
+
+#projects {
+  margin-left: 15%;
+}
+
+#projects-title {
+  font-size: 72px;
+  color: #3E2F5B;
+  margin-top: 10%;
+}
+
+.project {
+  width: 50%;
+  padding-bottom: 7%;
+}

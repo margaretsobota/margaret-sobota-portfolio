@@ -3,7 +3,6 @@ import "@fontsource/pridi";
 import "@fontsource/prompt";
 import Fade from 'react-reveal/Fade';
 import skillsImage from "../../images/skills.svg";
-import { StaticImage } from "gatsby-plugin-image";
 
 const Skills = () => {
   return (
