@@ -2,7 +2,7 @@ import React from "react";
 import "@fontsource/pridi";
 import "@fontsource/prompt";
 import Fade from 'react-reveal/Fade';
-//import Image from "./Image.jsx";
+import Image from "./Image.jsx";
 
 /* styles */
 const projectTitle = {
@@ -47,7 +47,7 @@ const Project = ({project}) => {
           {description}
         </p>
       </div>
-      {/*<Image alt={title} filename={img} />*/}
+      <Image alt={title} filename={img} />
     </div>
 
   );
