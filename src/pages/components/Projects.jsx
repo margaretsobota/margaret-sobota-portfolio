@@ -39,7 +39,7 @@ const Project = ({project}) => {
   const {title, description, repo, url, img} = project;
   return (
     <div className="project">
-      <div>
+      <div className="project-text">
         <h3 style={projectTitle}>
           {title}
         </h3>
@@ -47,7 +47,9 @@ const Project = ({project}) => {
           {description}
         </p>
       </div>
-      <Image alt={title} filename={img} />
+      <div className="project-image">
+        <Image alt={title} filename={img} />
+      </div>
     </div>
 
   );

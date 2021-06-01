@@ -18,7 +18,7 @@ const Image = ({ filename, alt }) => (
               publicURL
               childImageSharp {
                 gatsbyImageData(
-                  width: 200
+                  width: 300
                   placeholder: BLURRED
                   formats: [AUTO, WEBP, AVIF]
                 )
