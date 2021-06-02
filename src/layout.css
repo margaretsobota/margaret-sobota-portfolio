@@ -107,17 +107,20 @@ body {
   margin-right: auto;
 }
 
-.project-button {
+.project-button-container {
   margin-top: 5%;
+}
+
+.project-button {
   transition: 0.3s;
   text-align: center;
-  width: 164px;
   font-size: 18px;
   border: 5px solid #3E2F5B;
   padding: 10px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   text-decoration: none;
   color: #3E2F5B;
+  margin-right: 5%;
 }
 
 .project-button:hover {

@@ -46,14 +46,27 @@ const Project = ({project}) => {
         <p style={projectDesc}>
           {description}
         </p>
-        <a
-          target="_blank"
-          className="project-button"
-          href={url || '#!'}
-          style={{fontFamily: "Prompt"}}
-        >
-          View App
-        </a>
+        <div className="project-button-container">
+          <a
+            target="_blank"
+            className="project-button"
+            href={repo || '#!'}
+            style={{fontFamily: "Prompt"}}
+          >
+            Source Code
+          </a>
+          { url.length > 0 && (
+              <a
+                target="_blank"
+                className="project-button"
+                href={url || '#!'}
+                style={{fontFamily: "Prompt"}}
+              >
+                View App
+              </a>
+            )
+          }
+        </div>
       </div>
       <div id={`${title}-image`} className="project-image">
         <Image alt={title} filename={img} />
