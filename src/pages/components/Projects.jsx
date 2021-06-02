@@ -31,7 +31,7 @@ const projects = [
     description: "Mobile app allowing users to create or join a carpool opportunity by integrating Firebase authentication and database.",
     repo: "https://github.com/cs394-s20/ChairLift",
     url: "",
-    img: "chairlift_project.png"
+    img: "chairlift_project.PNG"
   }
 ]
 
