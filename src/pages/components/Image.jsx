@@ -18,7 +18,7 @@ const Image = ({ filename, alt }) => (
               publicURL
               childImageSharp {
                 gatsbyImageData(
-                  width: 300
+                  width: 400
                   placeholder: BLURRED
                   formats: [AUTO, WEBP, AVIF]
                 )
@@ -33,6 +33,10 @@ const Image = ({ filename, alt }) => (
       if (!image) return null;
       if (image.node.extension === "svg" || !image.node.childImageSharp) {
         return <img src={image.node.publicURL} />;
+      }
+      if (image.node.relativePath.includes("chairlift_project")) {
+        image.node.childImageSharp.gatsbyImageData.height = 400;
+        image.node.childImageSharp.gatsbyImageData.width = 200;
       }
       return <GatsbyImage alt={alt} image={getImage(image.node)} />;
     }}

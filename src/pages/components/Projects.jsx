@@ -24,14 +24,14 @@ const projects = [
     description: "Web app allowing Dominican Republic citizens to visualize their legal journey through a divorce proceeding.",
     repo: "https://github.com/margaretsobota/drj/tree/master",
     url: "https://drj-app-4012a.web.app/",
-    img: "drj_project_map.jpg"
+    img: "drj_project_map.png"
   },
   {
     title: "Chairlift",
     description: "Mobile app allowing users to create or join a carpool opportunity by integrating Firebase authentication and database.",
     repo: "https://github.com/cs394-s20/ChairLift",
     url: "",
-    img: "chairlift_project.PNG"
+    img: "chairlift_project.png"
   }
 ]
 
@@ -46,8 +46,16 @@ const Project = ({project}) => {
         <p style={projectDesc}>
           {description}
         </p>
+        <a
+          target="_blank"
+          className="project-button"
+          href={url || '#!'}
+          style={{fontFamily: "Prompt"}}
+        >
+          View App
+        </a>
       </div>
-      <div className="project-image">
+      <div id={`${title}-image`} className="project-image">
         <Image alt={title} filename={img} />
       </div>
     </div>
