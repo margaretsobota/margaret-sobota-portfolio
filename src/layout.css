@@ -127,3 +127,10 @@ body {
   background-color: #3E2F5B;
   color: #E5E5E5;
 }
+
+/* Blogs */
+#blogs-title {
+  font-size: 72px;
+  color: #3E2F5B;
+  margin-top: 10%;
+}

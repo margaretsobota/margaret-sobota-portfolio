@@ -5,6 +5,7 @@ import Headline from "./components/Headline.jsx";
 import About from "./components/About.jsx";
 import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
+import Blogs from "./components/Blogs.jsx";
 
 // markup
 const IndexPage = () => {
@@ -15,8 +16,9 @@ const IndexPage = () => {
       <About />
       <Skills />
       <Projects />
+      <Blogs />
     </main>
   )
 }
 
-export default IndexPage
+export default IndexPage;
