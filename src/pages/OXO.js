@@ -1,11 +1,11 @@
 import * as React from "react"
 import "../layout.css";
 
-// markup
 const OXO = () => {
   return (
     <main>
       <title>OXO</title>
+      <h1> OXO </h1>
     </main>
   )
 }

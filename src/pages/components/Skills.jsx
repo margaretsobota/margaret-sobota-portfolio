@@ -10,6 +10,7 @@ const Skills = () => {
       <section id="skills">
         <h2
           id="skills-title"
+          className="title"
           style={{fontFamily: "Pridi"}}
         >
           Skills

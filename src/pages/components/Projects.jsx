@@ -4,20 +4,6 @@ import "@fontsource/prompt";
 import Fade from 'react-reveal/Fade';
 import Image from "./Image.jsx";
 
-/* styles */
-const projectTitle = {
-  fontFamily: "Pridi",
-  fontSize: "36px",
-  color: "#261132",
-  marginBottom: "5px"
-}
-
-const projectDesc = {
-  fontFamily: "Prompt",
-  fontSize: "18px",
-  color: "#3E2F5B"
-}
-
 const projects = [
   {
     title: "DR Customer Journey Map",
@@ -40,16 +26,16 @@ const Project = ({project}) => {
   return (
     <div className="project">
       <div className="project-text">
-        <h3 style={projectTitle}>
+        <h3 className="subtitle" style={{fontFamily:"Pridi"}}>
           {title}
         </h3>
-        <p style={projectDesc}>
+        <p className="description" style={{fontFamily: "Prompt"}}>
           {description}
         </p>
-        <div className="project-button-container">
+        <div className="button-container">
           <a
             target="_blank"
-            className="project-button"
+            className="button"
             href={repo || '#!'}
             style={{fontFamily: "Prompt"}}
           >
@@ -58,7 +44,7 @@ const Project = ({project}) => {
           { url.length > 0 && (
               <a
                 target="_blank"
-                className="project-button"
+                className="button"
                 href={url || '#!'}
                 style={{fontFamily: "Prompt"}}
               >
@@ -80,9 +66,10 @@ const Project = ({project}) => {
 const Projects = () => {
   return (
     <Fade left>
-      <section id="projects">
+      <section id="projects" className="section">
         <h2
           id="projects-title"
+          className="title"
           style={{fontFamily: "Pridi"}}
         >
           My Work

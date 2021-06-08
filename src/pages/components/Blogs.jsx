@@ -5,43 +5,28 @@ import Fade from 'react-reveal/Fade';
 import Image from "./Image.jsx";
 import { Link } from "gatsby";
 
-/* styles */
-const blogTitle = {
-  fontFamily: "Pridi",
-  fontSize: "36px",
-  color: "#261132",
-  marginBottom: "5px"
-}
-
-const blogDesc = {
-  fontFamily: "Prompt",
-  fontSize: "18px",
-  color: "#3E2F5B"
-}
-
 const OXOBlog = () => {
   return (
     <div className="blog">
-      <div className="blog-text">
-        <div id="OXO-image" className="blog-image">
-          <Image alt="Margaret at OXO" filename="oxo3.JPG" />
-        </div>
-        <h3 style={blogTitle}>
-          Interning at OXO
-        </h3>
-        <p style={blogDesc}>
-          Read about my experience working as a full-stack software engineer
-          intern at OXO, a startup in San Francisco.
-        </p>
-        <div className="blog-button-container">
-          <Link
-            className="blog-button"
-            to="/OXO"
-            style={{fontFamily: "Prompt"}}
-          >
-            Read More
-          </Link>
-        </div>
+      <div id="OXO-image" className="blog-image">
+        <Image alt="Margaret at OXO" filename="oxo3.JPG" />
+      </div>
+      <h3 className="subtitle" style={{fontFamily:"Pridi"}}>
+        Interning at OXO
+      </h3>
+      <p className="description" style={{fontFamily: "Prompt"}}>
+        Read about my experience working as a full-stack Software Engineer
+        Intern at OXO, a startup in San Francisco.
+      </p>
+      <div className="button-container" id="blog-button-container">
+        <Link
+          id="blog-button"
+          className="button"
+          to="/OXO"
+          style={{fontFamily: "Prompt"}}
+        >
+          Read More
+        </Link>
       </div>
     </div>
 
@@ -52,9 +37,10 @@ const OXOBlog = () => {
 const Blogs = () => {
   return (
     <Fade right>
-      <section id="blogs">
+      <section id="blogs" className="section">
         <h2
           id="blogs-title"
+          className="title"
           style={{fontFamily: "Pridi"}}
         >
           My Experiences
