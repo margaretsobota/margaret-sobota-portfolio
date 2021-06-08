@@ -4,21 +4,16 @@ import "@fontsource/prompt";
 import Fade from 'react-reveal/Fade';
 import { StaticImage } from "gatsby-plugin-image";
 
-const titleStyles = {
-  fontFamily: "Pridi",
-  fontSize: "72px",
-  color: "#E5E5E5"
-}
-
 const About = () => {
   return (
     <Fade left>
       <section id="about">
-        <div id="about-container" style={{marginLeft: "15%"}}>
-          <div id="about-body-container">
+        <div className="purple-container" style={{marginLeft: "15%"}}>
+          <div className="purple-body-container">
             <h2
               id="about-title"
-              style={titleStyles}
+              className="title"
+              style={{fontFamily: "Pridi", color: "#E5E5E5"}}
             >
               A Little About Me...
             </h2>

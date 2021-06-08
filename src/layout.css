@@ -7,6 +7,7 @@ main {
 body {
   margin-left: 0px;
   margin-right: 0px;
+  margin-top: 0px;
 }
 
 * {
@@ -55,6 +56,20 @@ body {
   margin-top: 5%;
 }
 
+.purple-body-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-right: 10%;
+  color: #E5E5E5;
+  font-size: 18px;
+}
+
+.purple-container {
+  display: flex;
+  flex-direction: row;
+}
+
 /* Headline */
 
 #headline {
@@ -83,29 +98,12 @@ body {
   background: none;
 }
 
-#about-container {
-  display: flex;
-  flex-direction: row;
-}
-
-#about-body-container {
-  display: flex;
-  flex-direction: column;
-  width: 60%;
-  margin-right: 10%;
-}
-
 #about-image {
   margin: 10%;
 }
 
 #about-title {
   margin-bottom: 0px;
-}
-
-#about-body {
-  color: #E5E5E5;
-  font-size: 18px;
 }
 
 /* Skills */
@@ -152,4 +150,19 @@ body {
 
 .blog-image {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* OXO */
+#oxo {
+  width: 100%;
+  height: 614px;
+  background-image: url(./images/OXOVector.svg);
+}
+
+#oxo-image {
+  margin: 5%;
+}
+
+#oxo-title {
+  margin-bottom: 0px;
 }
