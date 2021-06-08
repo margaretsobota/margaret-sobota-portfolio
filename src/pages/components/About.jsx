@@ -9,11 +9,14 @@ const About = () => {
     <Fade left>
       <section id="about">
         <div className="purple-container" style={{marginLeft: "15%"}}>
-          <div className="purple-body-container">
+          <div className="purple-body-container" style={{marginRight: "5%"}}>
             <h2
               id="about-title"
               className="title"
-              style={{fontFamily: "Pridi", color: "#E5E5E5"}}
+              style={{
+                fontFamily: "Pridi",
+                color: "#E5E5E5"
+              }}
             >
               A Little About Me...
             </h2>
@@ -36,14 +39,16 @@ const About = () => {
               portraits and hiking.
             </p>
           </div>
-          <StaticImage
-            id="about-image"
-            src="../../images/profile.JPG"
-            alt="Margaret's portrait"
-            layout="fixed"
-            width={263}
-            height={394}
-          />
+          <div id="about-image-container">
+            <StaticImage
+              id="about-image"
+              src="../../images/profile.JPG"
+              alt="Margaret's portrait"
+              layout="fixed"
+              width={263}
+              height={394}
+            />
+          </div>
         </div>
       </section>
     </Fade>

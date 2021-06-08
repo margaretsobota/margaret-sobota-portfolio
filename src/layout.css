@@ -60,7 +60,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 60%;
-  margin-right: 10%;
   color: #E5E5E5;
   font-size: 18px;
 }
@@ -98,8 +97,12 @@ body {
   background: none;
 }
 
+#about-image-container {
+  margin: 4%;
+}
+
 #about-image {
-  margin: 10%;
+  border-radius: 108px;
 }
 
 #about-title {
@@ -160,9 +163,19 @@ body {
 }
 
 #oxo-image {
+  border-radius: 15%;
+}
+
+#oxo-image-container {
   margin: 5%;
 }
 
 #oxo-title {
   margin-bottom: 0px;
+}
+
+#oxo-link {
+  text-decoration: none;
+  background: none;
+  color: #E5E5E5;
 }
