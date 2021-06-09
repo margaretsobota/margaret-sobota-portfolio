@@ -27,7 +27,7 @@ const Headline = () => {
           smooth
           duration={1000}
         >
-          skills;
+          skills
         </Link>
         <Link
           className="menu-link"
@@ -35,7 +35,7 @@ const Headline = () => {
           smooth
           duration={1000}
         >
-          projects;
+          projects
         </Link>
         <Link
           className="menu-link"
@@ -43,7 +43,7 @@ const Headline = () => {
           smooth
           duration={1000}
         >
-          experience;
+          experience
         </Link>
       </div>
       <h1 style={headlineStyles}>
