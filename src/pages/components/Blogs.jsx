@@ -14,7 +14,11 @@ const OXOBlog = () => {
       <h3 className="subtitle" style={{fontFamily:"Pridi"}}>
         Interning at OXO
       </h3>
-      <p className="description" style={{fontFamily: "Prompt"}}>
+      <p className="description" style={{
+          fontFamily: "Prompt",
+          paddingBottom: "5%"
+        }}
+      >
         Read about my experience working as a full-stack Software Engineer
         Intern at OXO, a startup in San Francisco.
       </p>
@@ -33,6 +37,24 @@ const OXOBlog = () => {
   );
 };
 
+const LinkedInBlog = () => {
+  return (
+    <div className="blog">
+      <div id="linkedin-image">
+        <Image alt="Margaret at LinkedIn" filename="linkedin.svg" />
+      </div>
+      <h3 className="subtitle" style={{fontFamily:"Pridi"}}>
+        Interning at LinkedIn
+      </h3>
+      <p className="description" style={{fontFamily: "Prompt"}}>
+        Coming soon... read about my experience working as a Software
+        Engineer intern at LinkedIn.
+      </p>
+    </div>
+
+  );
+};
+
 
 const Blogs = () => {
   return (
@@ -45,7 +67,16 @@ const Blogs = () => {
         >
           My Experiences
         </h2>
-        <OXOBlog />
+        <div style={{
+            display: "flex",
+            flexDireciton:"row",
+            justifyContent:"space-between",
+            width: "80%"
+          }}
+        >
+          <OXOBlog />
+          <LinkedInBlog />
+        </div>
       </section>
     </Fade>
   );
