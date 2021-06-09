@@ -69,10 +69,29 @@ body {
   flex-direction: row;
 }
 
+#menu {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  position: absolute;
+  right: 10px;
+  top: 24px;
+}
+
+.menu-link {
+  color: #747572;
+  transition: 0.3s;
+}
+
+.menu-link:hover {
+  color: #3E2F5B;
+}
+
 /* Headline */
 
 #headline {
-  margin-bottom: 25%;
+  margin-bottom: 15%;
 }
 
 #about-link {

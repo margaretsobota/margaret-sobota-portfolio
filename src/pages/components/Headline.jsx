@@ -7,7 +7,7 @@ const headlineStyles = {
   fontFamily: "Pridi",
   fontSize: "72px",
   color: "#3E2F5B",
-  marginTop: "20%",
+  marginTop: "25%",
 }
 const buttonStyles = {
   fontFamily: "Prompt",
@@ -20,6 +20,32 @@ const buttonStyles = {
 const Headline = () => {
   return (
     <section id="headline" style={{marginLeft: "15%"}}>
+      <div id="menu" style={{fontFamily: "Prompt"}}>
+        <Link
+          className="menu-link"
+          to="skills"
+          smooth
+          duration={1000}
+        >
+          skills;
+        </Link>
+        <Link
+          className="menu-link"
+          to="projects"
+          smooth
+          duration={1000}
+        >
+          projects;
+        </Link>
+        <Link
+          className="menu-link"
+          to="blogs"
+          smooth
+          duration={1000}
+        >
+          experience;
+        </Link>
+      </div>
       <h1 style={headlineStyles}>
         Hi, I'm Margaret. I like web development.
       </h1>

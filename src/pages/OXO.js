@@ -53,7 +53,7 @@ const OXO = () => {
             codebase built in React Native and TypeScript. In terms of the
             backend, I learned to navigate systems such as a Sequelize Database,
             Heroku web server, and Feathers API endpoints. In terms of the
-            frontend, I learned Typescript-based React Native, and how to serve
+            frontend, I learned Typescript-based React Native and how to serve
             the mobile app locally via Expo.
             <br/>
             <br/>
